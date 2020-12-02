@@ -1,0 +1,33 @@
+CRITICAL - 2020-11-27 02:52:22 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\Model.php(450): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4app3\app\Controllers\Home.php(24): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->view()
+#5 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app3\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-27 02:52:27 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\Model.php(450): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4app3\app\Controllers\Home.php(24): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->view()
+#5 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app3\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-27 04:47:42 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\Model.php(450): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4app3\app\Controllers\Home.php(24): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->view()
+#5 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app3\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
